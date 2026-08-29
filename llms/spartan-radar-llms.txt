@@ -1,0 +1,56 @@
+# Spartan Radar
+
+> Spartan Radar is an automotive radar software and sensing company, operating as the
+> radar technology brand of Pro-Vision Solutions, LLC after its 2025 acquisition. It
+> improves the resolution and reliability of existing automotive radar sensors through
+> proprietary digital signal processing and machine-learning perception, and ships a
+> software-defined collision-avoidance system for commercial and heavy vehicles.
+
+Generated 2026-08-28 by the API Evangelist enrichment pipeline from apis.yml and the
+provider's public website. Method: generated (Spartan Radar publishes no llms.txt of
+its own; https://www.spartanradar.com/llms.txt returns 404).
+
+## What Spartan Radar sells
+
+- **Clarify** — radar perception software that upgrades legacy and current automotive
+  radar with 3-8x resolution improvement, running on existing silicon (ARM Cortex,
+  Texas Instruments TDA4VM and AWR series, NVIDIA Orin and DRIVE, NXP SAF85xx and
+  SAF86xx radar SoCs), at the edge or on a central CPU/GPU. No additional hardware.
+- **Hoplo** — a fully configurable, software-defined collision-avoidance and blind-spot
+  warning system for commercial vehicles: mining, construction, material handling and
+  logistics fleets.
+
+Buyers are commercial-vehicle OEMs, Tier 1 suppliers and fleet operators. Delivery is
+embedded software and hardware under bilateral commercial agreements, not self-service.
+
+## API and agent surface
+
+Spartan Radar publishes **no public API**. As of 2026-08-28 there is:
+
+- no OpenAPI, Swagger, GraphQL, AsyncAPI, gRPC/Protobuf or WSDL contract
+- no developer portal, API reference, sandbox, or sign-up
+- no SDK or client library on npm, PyPI, Maven Central, NuGet, RubyGems, crates.io or pkg.go.dev
+- no MCP server and no A2A agent card
+- no `api.`, `docs.` or `developer.` subdomain (all NXDOMAIN)
+- no served `/.well-known/*` document of any kind
+- no published pricing or plans
+
+Integration with Spartan's products happens through vehicle-level interfaces negotiated
+with the customer, not through a public network API. Do not assume a callable endpoint
+exists; contact the company directly.
+
+## Pages
+
+- [Home](https://www.spartanradar.com/): company overview and products
+- [About](https://www.spartanradar.com/about): company, team and Pro-Vision relationship
+- [Clarify software](https://www.spartanradar.com/software-solution): radar perception software and supported silicon
+- [Hoplo](https://www.spartanradar.com/hoplo-commercial-vehicles): blind-spot warning system for heavy vehicles
+- [News and media](https://www.spartanradar.com/about/news-media): announcements and press
+- [Contact](https://www.spartanradar.com/contact): the only commercial entry point
+- [Privacy policy](https://www.spartanradar.com/privacy-policy)
+- [Terms of use](https://www.spartanradar.com/terms-of-use)
+
+## Corporate
+
+- Parent: Pro-Vision Solutions, LLC (https://pro-vision.com/) — acquired Spartan Radar September 2025
+- Investors before acquisition included 8VC, Microsoft (M12) and Wipro Ventures

@@ -1,0 +1,20 @@
+generated: '2026-08-28'
+method: searched
+source: https://www.spartanradar.com/contact
+plan_count: 0
+model: enterprise-contact-sales
+currency: null
+plans: []
+note: >-
+  Spartan Radar publishes no pricing, plans or tiers. It sells embedded radar
+  perception software (Clarify) and a collision-avoidance system (Hoplo) to
+  commercial-vehicle OEMs, Tier 1 suppliers and fleet operators under bilateral
+  commercial agreements. https://www.spartanradar.com/pricing returns 404 and no
+  pricing page exists anywhere in the site navigation or footer; the only
+  commercial entry point is the contact form at /contact. plan_count 0 is a
+  verified absence, not an unchecked field.
+evidence:
+- url: https://www.spartanradar.com/pricing
+  status: 404
+- url: https://www.spartanradar.com/contact
+  status: 200

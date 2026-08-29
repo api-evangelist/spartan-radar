@@ -1,8 +1,18 @@
 aid: spartan-radar
 name: Spartan Radar
-description: 'Spartan Radar is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Spartan Radar is an automotive radar software and sensing company, now
+  operating as the radar technology brand of Pro-Vision Solutions, LLC following its
+  2025 acquisition. Its Clarify software applies proprietary digital signal processing
+  and machine-learning perception to existing automotive radar sensors, raising resolution
+  3-8x on commodity silicon (ARM Cortex, Texas Instruments TDA4VM and AWR, NVIDIA Orin
+  and DRIVE, NXP SAF85xx/SAF86xx) without new hardware, and its Hoplo product is a
+  software-defined collision-avoidance and blind-spot warning system for commercial
+  and heavy vehicles across mining, construction, material handling and logistics.
+  Spartan sells to commercial-vehicle OEMs, Tier 1 suppliers and fleet operators as
+  embedded software and hardware; it publishes no public developer program, API, SDK
+  or machine-readable interface contract.'
 url: https://raw.githubusercontent.com/api-evangelist/spartan-radar/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/64dd1fb693f80b411c6fb30b/69d3d0d6638a8e4ff84a994b_EndorserBrand_SpartanRadar_PV_Logo.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +22,16 @@ created: '2026-08-28'
 modified: '2026-08-28'
 tags:
 - Company
+- Automotive
+- Radar
+- Sensors
+- ADAS
+- Autonomous Vehicles
+- Perception
+- Signal Processing
+- Commercial Vehicles
+- Embedded Software
+- Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,48 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spartan-radar-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.spartanradar.com/
+- type: About
+  url: https://www.spartanradar.com/about
+- type: Contact
+  url: https://www.spartanradar.com/contact
+- type: News
+  url: https://www.spartanradar.com/about/news-media
+- type: PrivacyPolicy
+  url: https://www.spartanradar.com/privacy-policy
+- type: TermsOfService
+  url: https://www.spartanradar.com/terms-of-use
+- type: Plans
+  url: plans/spartan-radar-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/spartan-radar-llms.txt
+x-enrichment:
+  date: '2026-08-28'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Spartan Radar sells embedded radar perception software (Clarify) and a heavy-vehicle
+    collision-avoidance system (Hoplo) to commercial-vehicle OEMs and fleets; its entire
+    public surface is a seven-page Webflow marketing site whose only call to action is a
+    contact form, and api./docs./developer.spartanradar.com do not resolve in DNS at all.
+  evidence:
+  - url: https://www.spartanradar.com/
+    status: 200
+  - url: https://www.spartanradar.com/software-solution
+    status: 200
+  - url: https://spartanradar.com/openapi.json
+    status: 404
+  - url: https://www.spartanradar.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.spartanradar.com/pricing
+    status: 404
+  - url: https://api.spartanradar.com/openapi.json
+    status: 0
+  checked: '2026-08-28'
