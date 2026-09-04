@@ -12,6 +12,19 @@ description: 'Spartan Radar is an automotive radar software and sensing company,
   embedded software and hardware; it publishes no public developer program, API, SDK
   or machine-readable interface contract.'
 url: https://raw.githubusercontent.com/api-evangelist/spartan-radar/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: low
+  source:
+  - plans
+  - security
+  generated: '2026-09-03'
+  method: derived
 image: https://cdn.prod.website-files.com/64dd1fb693f80b411c6fb30b/69d3d0d6638a8e4ff84a994b_EndorserBrand_SpartanRadar_PV_Logo.png
 x-type: company
 x-source: harvest:secondary-market
